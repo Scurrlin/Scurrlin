@@ -3,7 +3,7 @@
 <table>
 <tr>
 <td>
- From helping my college friends with music theory homework to implementing dozens of uniquely tailored solutions during my 5 years in higher education, I have forged a battle-tested passion for creative problem solving. I'm a passionate problem solver with a lifelong interest in software, tech hardware and music. Skilled in critical thinking and finding creative solutions, I have extensive experience solving complex problems from my time as a classical musician. I approach software development projects with enthusiasm and unwavering commitment to finding the best possible solution.
+From helping my college friends with music theory homework to implementing dozens of uniquely tailored solutions during my 5 years in higher education, I have forged a battle-tested passion for optimization. I'm a persistent problem solver with a lifelong interest in software, tech hardware and music. Skilled in critical thinking, I approach software development projects with enthusiasm and unwavering commitment to finding the best possible solution.
 </td>
 </tr>
 </table>
