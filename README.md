@@ -48,6 +48,8 @@ A personal album review site made with Mongoose, Node.js, Express, and React.  C
 
 ![Mock1](https://i.imgur.com/o9JtyAg.png)
 
+<hr>
+
 ## [Dev Blog](https://github.com/Scurrlin/Dev-Blog)
 
 ### Mongoose/Express/Node.js project.
@@ -68,7 +70,7 @@ An Article Summarizer powered by RapidAPI and OpenAI's GPT Model; built with Rea
 
 ### Check it out here : [SummarAIze](https://summaraize-jj5v.onrender.com/)
 
-![Mock3](https://i.imgur.com/ZblXr0S.png)
+![Mock3](https://i.imgur.com/jHjQmjP.png)
 
 <hr>
 
