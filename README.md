@@ -60,6 +60,18 @@ A blog built with Mongoose, Express, and Node.js. Users can create an account th
 
 <hr>
 
+## [SummarAIze](https://github.com/Scurrlin/AI_Article_Summarizer_Clone)
+
+### AI Article Summarizer
+
+An Article Summarizer powered by RapidAPI and OpenAI's GPT Model; built with React and styled with Tailwind CSS. 
+
+### Check it out here : [SummarAIze](https://summaraize-jj5v.onrender.com/)
+
+![Mock3](https://i.imgur.com/ZblXr0S.png)
+
+<hr>
+
 ## [Hearo's Journey](https://github.com/Scurrlin/Interval-Training-Game)
 
 ### Interval Training Game with Vanilla JS, HTML, and CSS
@@ -68,19 +80,7 @@ A simple game that tests your ability to identify musical intervals by ear. I re
 
 ### Check it out here : [Hearo's Journey](https://hearos-journey.onrender.com/)
 
-![Mock3](https://i.imgur.com/Dlm6KXo.png)
-
-<hr>
-
-## [JS Calculator](https://github.com/Scurrlin/JS-Calculator)
-
-### Minimalist Calculator with Vanilla JS, HTML, and CSS
-
-A stylish take on the classic calculator app; this project features streamlined JavaScript baked right into the HTML. 
-
-### Check it out here : [JS Calclator](https://js-calculator-hurx.onrender.com/)
-
-![Mock4](https://i.imgur.com/sfVdAKF.png)
+![Mock4](https://i.imgur.com/Dlm6KXo.png)
 
 <hr>
 
