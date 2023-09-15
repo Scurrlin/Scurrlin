@@ -40,7 +40,7 @@ From helping my college friends with music theory homework to implementing dozen
 
 ## [Up 4 ReVue](https://github.com/Scurrlin/Up-4-ReVue-Client)
 
-### Mongoose/Express/React/Node 
+### Mongoose/Express/React/Node.js 
 
 A personal album review site made with Mongoose, Node.js, Express, and React.  Currently only I can add reviews to the site, but I plan to open it up to more users in a future update!
 
@@ -52,7 +52,7 @@ A personal album review site made with Mongoose, Node.js, Express, and React.  C
 
 ## [Dev Blog](https://github.com/Scurrlin/Dev-Blog)
 
-### Mongoose/Express/Node.js project.
+### Mongoose/Express/Node.js
 
 A blog built with Mongoose, Express, and Node.js. Users can create an account that will allow them to create, edit, and delete posts. User authenication data is also protected via JSON Web Tokens.
 
