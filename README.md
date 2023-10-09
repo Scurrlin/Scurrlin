@@ -38,18 +38,6 @@ From helping my college friends with music theory homework to implementing dozen
 # Projects
 
 
-## [Up 4 ReVue](https://github.com/Scurrlin/Up-4-ReVue-Client)
-
-### Mongoose/Express/React/Node.js 
-
-A personal album review site made with Mongoose, Node.js, Express, and React.  Currently only I can add reviews to the site, but I plan to open it up to more users in a future update!
-
-### Check it out deployed here : [Up 4 ReVue](https://up-4-revue-client.onrender.com/)
-
-![Mock1](https://i.imgur.com/o9JtyAg.png)
-
-<hr>
-
 ## [Dev Blog](https://github.com/Scurrlin/Dev-Blog)
 
 ### Mongoose/Express/Node.js
