@@ -16,12 +16,12 @@ From helping my college friends with music theory homework to implementing dozen
 
 | Skills     |            |
 | ---------- | --------   |
-| React      | NodeJs     |
+| React      | Python     |
 | JavaScript | Express    |
 | Render     | MongoDB    |
 | HTML5      | CSS3       |
 | Django     | Heroku     |
-| Python     | Django     |
+| NodeJS     | Django     |
 | Git        | Bash       |
 | Bootstrap  | PostgreSql |
 
