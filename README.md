@@ -37,7 +37,6 @@ From helping my college friends with music theory homework to implementing dozen
 
 # Projects
 
-<hr>
 
 ## [Artofficial](https://github.com/Scurrlin/Arofficial)
 
