@@ -38,15 +38,15 @@ From helping my college friends with music theory homework to implementing dozen
 # Projects
 
 
-## [Dev Blog](https://github.com/Scurrlin/Dev-Blog)
+## [Artofficial](https://github.com/Scurrlin/Arofficial)
 
-### Mongoose/Express/Node.js
+### MongoDB/Express/React/Node.js
 
-A blog built with Mongoose, Express, and Node.js. Users can create an account that will allow them to create, edit, and delete posts. User authenication data is also protected via JSON Web Tokens.
+A full MERN stack AI Image Generator powered by Cloudinary and DALL-E-3; built with React, MongoDB, Express, Node, and Hostinger.
 
-### Check it out here : [Dev Blog](https://dev-blog-nn3i.onrender.com/)
+### Check it out here : [Artofficial](http://www.artofficial.fun)
 
-![Mock2](https://i.imgur.com/fkntk1X.png)
+![Mock1](https://i.imgur.com/C68pL4c.png)
 
 <hr>
 
@@ -56,21 +56,33 @@ A blog built with Mongoose, Express, and Node.js. Users can create an account th
 
 An Article Summarizer powered by RapidAPI and OpenAI's GPT Model; built with React and styled with Tailwind CSS. 
 
-### Check it out here : [SummarAIze](https://summaraize-jj5v.onrender.com/)
+### Check it out here : [SummarAIze](https://i.imgur.com/TqIP5eC.png)
 
-![Mock3](https://i.imgur.com/jHjQmjP.png)
+![Mock2](https://i.imgur.com/jHjQmjP.png)
 
 <hr>
 
-## [Hearo's Journey](https://github.com/Scurrlin/Interval-Training-Game)
+## [Dev Blog](https://github.com/Scurrlin/Dev-Blog)
 
-### Interval Training Game with Vanilla JS, HTML, and CSS
+### Mongoose/Express/Node.js
 
-A simple game that tests your ability to identify musical intervals by ear. I recorded all the piano sounds myself in Pro Tools and used vanilla JS to create the game logic.
+A blog built with Mongoose, Express, and Node.js. Users can create an account that will allow them to create, edit, and delete posts. User authenication data is also protected via JSON Web Tokens.
 
-### Check it out here : [Hearo's Journey](https://hearos-journey.onrender.com/)
+### Check it out here : [Dev Blog](https://dev-blog-nn3i.onrender.com/)
 
-![Mock4](https://i.imgur.com/Dlm6KXo.png)
+![Mock3](https://i.imgur.com/aQtpx9m.png)
+
+<hr>
+
+## [Crypt0Watch](https://github.com/Scurrlin/Crypt0Watch)
+
+### React/CoinGecko API
+
+A cryptocurrency tracking app ranking the top 50 coins by current market cap; built with React and CoinGecko's API.
+
+### Check it out here : [Crypt0Watch](https://crypt0watch.onrender.com/)
+
+![Mock4](https://i.imgur.com/OMS9OlV.png)
 
 <hr>
 
