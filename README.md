@@ -37,7 +37,6 @@ From helping my college friends with music theory homework to implementing dozen
 
 # Projects
 
-
 ## [Artofficial](https://github.com/Scurrlin/Arofficial)
 
 ### MongoDB/Express/React/Node.js
