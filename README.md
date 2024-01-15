@@ -62,18 +62,6 @@ An Article Summarizer powered by RapidAPI and OpenAI's GPT Model; built with Rea
 
 <hr>
 
-## [Dev Blog](https://github.com/Scurrlin/Dev-Blog)
-
-### Mongoose/Express/Node.js
-
-A blog built with Mongoose, Express, and Node.js. Users can create an account that will allow them to create, edit, and delete posts. User authenication data is also protected via JSON Web Tokens.
-
-### Check it out here : [Dev Blog](https://dev-blog-nn3i.onrender.com/)
-
-![Mock3](https://i.imgur.com/aQtpx9m.png)
-
-<hr>
-
 ## [Crypt0Watch](https://github.com/Scurrlin/Crypt0Watch)
 
 ### React/CoinGecko API
@@ -82,7 +70,19 @@ A cryptocurrency tracking app ranking the top 50 coins by current market cap; bu
 
 ### Check it out here : [Crypt0Watch](https://crypt0watch.onrender.com/)
 
-![Mock4](https://i.imgur.com/OMS9OlV.png)
+![Mock3](https://i.imgur.com/OMS9OlV.png)
+
+<hr>
+
+## [Dev Blog](https://github.com/Scurrlin/Dev-Blog)
+
+### Mongoose/Express/Node.js
+
+A blog built with Mongoose, Express, and Node.js. Users can create an account that will allow them to create, edit, and delete posts. User authenication data is also protected via JSON Web Tokens.
+
+### Check it out here : [Dev Blog](https://dev-blog-nn3i.onrender.com/)
+
+![Mock4](https://i.imgur.com/aQtpx9m.png)
 
 <hr>
 
