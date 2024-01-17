@@ -88,4 +88,4 @@ A blog built with Mongoose, Express, and Node.js. Users can create an account th
 
 ## Portfolio/Contact
 
-Portfolio [seancurrlin.onrender.com](https://seancurrlin.onrender.com/) | LinkedIn [LinkedIn](https://www.linkedin.com/in/seancurrlin//) 
+Portfolio [seancurrlin.onrender.com](https://seancurrlin.com/) | LinkedIn [LinkedIn](https://www.linkedin.com/in/seancurrlin//) 
