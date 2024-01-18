@@ -74,15 +74,15 @@ A cryptocurrency tracking app ranking the top 50 coins by current market cap; bu
 
 <hr>
 
-## [Dev Blog](https://github.com/Scurrlin/Dev-Blog)
+## [Lift Off](https://github.com/Scurrlin/Lift-Off)
 
-### Mongoose/Express/Node.js
+### MongoDB/Express/React/Node.js
 
-A blog built with Mongoose, Express, and Node.js. Users can create an account that will allow them to create, edit, and delete posts. User authenication data is also protected via JSON Web Tokens.
+A full MERN stack exercise journal to help you reach your fitness goals! This app features full CRUD functionality and uses JSON Web Tokens to protect and authenticate user credentials.
 
-### Check it out here : [Dev Blog](https://dev-blog-nn3i.onrender.com/)
+### Check it out here : [Lift Off](http://www.lift-off.fun/)
 
-![Mock4](https://i.imgur.com/aQtpx9m.png)
+![Mock4](https://i.imgur.com/zKpwWs2.png)
 
 <hr>
 
