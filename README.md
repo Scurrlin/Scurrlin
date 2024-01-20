@@ -56,7 +56,7 @@ A full MERN stack AI Image Generator powered by Cloudinary and DALL-E-3; built w
 
 An Article Summarizer powered by RapidAPI and OpenAI's GPT Model; built with React and styled with Tailwind CSS. 
 
-### Check it out here : [SummarAIze](https://i.imgur.com/TqIP5eC.png)
+### Check it out here : [SummarAIze](https://summaraize-jj5v.onrender.com/)
 
 ![Mock2](https://i.imgur.com/jHjQmjP.png)
 
