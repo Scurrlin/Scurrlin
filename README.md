@@ -40,7 +40,7 @@ From helping my college friends with music theory homework to implementing dozen
 
 ## [Artofficial](https://github.com/Scurrlin/Artofficial)
 
-### MongoDB/Express/React/Node.js
+### AI Image Generator
 
 A full MERN stack AI Image Generator powered by Cloudinary and DALL-E-3; built with React, MongoDB, Express, Node, and Hostinger.
 
