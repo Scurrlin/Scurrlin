@@ -12,28 +12,20 @@ From helping my college friends with music theory homework to implementing dozen
 
 ### Skills/Tools:
 
-![My Skills](https://skillicons.dev/icons?i=react,nodejs,express,mongodb,heroku,bootstrap,django,git,js,postgres,html,css,python,bash)
+![My Skills](https://skillicons.dev/icons?i=js,python,react,django,express,flask,mongodb,postgres,nodejs,render,nextjs,hostinger,tailwindcss,vercel,bootstrap,postman,git,rest)
 
-| Skills     |            |
-| ---------- | --------   |
-| React      | Python     |
-| JavaScript | Express    |
-| Render     | MongoDB    |
-| HTML5      | CSS3       |
-| Django     | Heroku     |
-| NodeJS     | Django     |
-| Git        | Bash       |
-| Bootstrap  | PostgreSql |
 
-### Software
-
-![My Skills](https://skillicons.dev/icons?i=vscode,postman,django)
-
-| Software             |     
-| -------------------- | 
-| VS Code              |     
-| Postman API          |     
-| REST Framework       |     
+| Skills        |               |
+| ------------- | ------------- |
+| JavaScript    | Python        |
+| React         | DJango        |
+| Express       | Flask         |
+| MongoDB       | PostgreSQL    |
+| NodeJS        | Render        |
+| NextJS        | Hostinger     |
+| TailwindCSS   | Vercel        |
+| Bootstrap     | Postman API   |
+| Git           | REST Framework|
 
 # Projects
 
