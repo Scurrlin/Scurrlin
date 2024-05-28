@@ -12,21 +12,21 @@ From helping my college friends with music theory homework to implementing dozen
 
 ### Skills/Tools:
 
-![My Skills](https://skillicons.dev/icons?i=js,react,express,mongodb,nodejs,nextjs,threejs,tailwind,python,django,flask,postgres,render,hostinger,vercel,postman,rest,appwrite,payloadcms,git)
+![My Skills](https://skillicons.dev/icons?i=js,react,express,mongodb,nodejs,nextjs,threejs,tailwind,python,django,flask,postgres,vercel,postman,git)
 
 
 | Skills        |               |
 | ------------- | ------------- |
-| JavaScript    | React         |
-| Express       | MongoDB       |
-| NodeJS        | NextJS        |
-| ThreeJS       | TailwindCSS   |
-| Python        | Django        |
-| Flask         | PostgreSQL    |
-| Render        | Hostinger     |
-| Vercel        | Postman API   |
-| Rest Framework| Appwrite BaaS |
-| Payload CMS   | Git           |
+| JavaScript    | Python        |
+| React         | Django        |
+| Express       | Flask         |
+| NodeJS        | PostgreSQL    |
+| NextJS        | Render        |
+| ThreeJS       | Hostinger     |
+| MongoDB       | Vercel        |
+| Tailwind CSS  | Postman API   |
+| Payload CMS   | REST Framework|
+| Appwrite Baas | Git           |
 
 # Projects
 
