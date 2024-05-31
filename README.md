@@ -3,7 +3,7 @@
 <table>
 <tr>
 <td>
-From helping my college friends with music theory homework to implementing dozens of uniquely tailored solutions during my 5 years in higher education, I have forged a battle-tested passion for optimization. I'm a persistent problem solver with a lifelong interest in software, tech hardware and music. Skilled in critical thinking, I approach software development projects with enthusiasm and an unwavering commitment to finding the best possible course of action.
+From helping my college friends with music theory homework to implementing dozens of uniquely tailored solutions in higher education, I've developed a strong passion for optimization. As a persistent problem solver with a deep interest in software, tech hardware, and music, I bring critical thinking and enthusiasm to every project. My commitment to finding the best possible course of action drives my success in software development.
 </td>
 </tr>
 </table>
@@ -26,7 +26,7 @@ From helping my college friends with music theory homework to implementing dozen
 | MongoDB       | Vercel        |
 | Tailwind CSS  | Postman API   |
 | Payload CMS   | REST Framework|
-| Appwrite Baas | Git           |
+| Appwrite BaaS | Git           |
 
 # Projects
 
