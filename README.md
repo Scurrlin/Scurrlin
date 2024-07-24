@@ -3,7 +3,7 @@
 <table>
 <tr>
 <td>
-From helping my college friends with music theory homework to implementing dozens of uniquely tailored solutions in higher education, I've developed a strong passion for optimization. As a persistent problem solver with a deep interest in software, tech hardware, and music, I bring critical thinking and enthusiasm to every project. My commitment to finding the best possible course of action drives my success in software development.
+What distinguishes me is my expertise in developing and optimizing web applications, enhancing data pipelines, and implementing analytics to generate actionable insights. I have a demonstrated proficiency in software development, with a proven track record of delivering high-quality solutions from ideation to deployment. I possess a deep understanding of full-stack development, particularly in Python, JavaScript, React.js, and database management. My polished communication skills enable me to effectively articulate complex technical strategies.
 </td>
 </tr>
 </table>
