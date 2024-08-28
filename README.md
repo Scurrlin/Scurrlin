@@ -76,9 +76,3 @@ A full MERN stack exercise journal to help you reach your fitness goals! This ap
 ### Check it out here : [Lift Off](http://www.lift-off.fun/)
 
 ![Mock4](https://i.imgur.com/zKpwWs2.png)
-
-<hr>
-
-## Portfolio/Contact
-
-Portfolio [https://seancurrlin.com/](https://seancurrlin.com/) | LinkedIn [LinkedIn](https://www.linkedin.com/in/seancurrlin//) 
