@@ -27,4 +27,3 @@ I have a demonstrated proficiency in software development, with a proven track r
 | Tailwind CSS  | Postman API   |
 | Payload CMS   | REST Framework|
 | Appwrite BaaS | Git           |
-
