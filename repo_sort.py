@@ -119,7 +119,7 @@ print("README.md updated with personal content and paginated repositories.")
 
 # Stage the changes, commit, and push to GitHub using subprocess
 subprocess.run(["git", "add", "README.md"], check=True)
-subprocess.run(["git", "commit", "-m", "Update README with sorted repositories"], check=True)
+subprocess.run(["git", "commit", "-m", "Update sorted repositories"], check=True)
 subprocess.run(["git", "push"], check=True)
 
 print("Changes committed and pushed to GitHub.")
