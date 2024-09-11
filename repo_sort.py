@@ -108,10 +108,8 @@ for page_num in range(total_pages):
 
         # Add the repository to the README content with formatting
         readme_content += f"### [{repo['name']}]({repo['html_url']})\n"
-        readme_content += f"- **Description**: {description}\n"
         readme_content += f"- **Primary language**: {language}\n"
         readme_content += f"- **Created on**: {formatted_date} at {formatted_time} EST\n"
-        readme_content += f"- **Last updated**: {last_updated_formatted} EST\n\n"
 
 # Write to the README.md file in the repository
 with open("README.md", "w") as readme_file:
@@ -121,7 +119,7 @@ print("README.md updated with personal content and paginated repositories.")
 
 # Stage the changes, commit, and push to GitHub using subprocess
 subprocess.run(["git", "add", "README.md"], check=True)
-subprocess.run(["git", "commit", "-m", "Updated README with sorted repositories"], check=True)
+subprocess.run(["git", "commit", "-m", "Update README with sorted repositories"], check=True)
 subprocess.run(["git", "push"], check=True)
 
 print("Changes committed and pushed to GitHub.")
