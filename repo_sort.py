@@ -111,7 +111,7 @@ for page_num in range(total_pages):
             fork_info = ""
 
         # Add the repository to the README content
-        readme_content += f"### [{repo['name']}]({repo['html_url']})\n"
+        readme_content += f"[{repo['name']}]({repo['html_url']})\n"
         readme_content += f"{language_color} {language} • Created on {formatted_date}  \n"
         readme_content += f"{fork_info}\n"
 
