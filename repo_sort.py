@@ -59,7 +59,9 @@ I have a demonstrated proficiency in software development, with a proven track r
 
 ![My Skills](https://skillicons.dev/icons?i=js,react,express,mongodb,nodejs,nextjs,threejs,tailwind,python,django,flask,postgres,postman,vercel,git)
 
-## Repositories sorted by date created
+### [Skip to Contributions](#contributions)
+
+### Repositories sorted by date created
 
 """
 
@@ -73,31 +75,37 @@ for page_num in range(total_pages):
     end_index = start_index + repos_per_page
     page_repos = sorted_repos[start_index:end_index]
     
-    for repo in page_repos:
-        # Parse the UTC creation date (keeping it in UTC)
+    for index, repo in enumerate(page_repos):
+        # Parse the UTC creation date
         utc_time = datetime.strptime(repo['created_at'], "%Y-%m-%dT%H:%M:%SZ")
 
         # Format the date in MM-DD-YYYY format
         formatted_date = utc_time.strftime("%m-%d-%Y")
 
-        # Get the primary language and its associated colored circle
+        # Get the primary language and its color
         language = repo['language']
         language_color = language_colors.get(language, "")
 
         # Add the repository to the README content
         readme_content += f"### [{repo['name']}]({repo['html_url']})\n"
         readme_content += f"{language_color} {language} • Created on {formatted_date}\n\n"
-        readme_content += "---\n\n"
+        
+        # Only add the line if it's not the last repository on the page
+        if index < len(page_repos) - 1:
+            readme_content += "---\n\n"
+
+# Add an anchor tag at the end for "Skip to Contributions"
+readme_content += "\n<a name='contributions'></a>\n"
 
 # Write the generated content to the README.md file
 with open("README.md", "w") as readme_file:
     readme_file.write(readme_content)
 
-print("README.md updated with personal content and paginated repositories.")
+print("README.md updated with static content and paginated repositories.")
 
 # Stage the changes, commit, and push to GitHub using subprocess
 subprocess.run(["git", "add", "README.md"], check=True)
-subprocess.run(["git", "commit", "-m", "Updated README with sorted repositories and language colors"], check=True)
+subprocess.run(["git", "commit", "-m", "updated sorted repos"], check=True)
 subprocess.run(["git", "push"], check=True)
 
 print("Changes committed and pushed to GitHub.")
