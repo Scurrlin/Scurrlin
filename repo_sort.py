@@ -59,7 +59,6 @@ I have a demonstrated proficiency in software development, with a proven track r
 
 ![My Skills](https://skillicons.dev/icons?i=js,react,express,mongodb,nodejs,nextjs,threejs,tailwind,python,django,flask,postgres,postman,vercel,git)
 
-| ------------- | ------------- |
 | JavaScript    | Python        |
 | React         | Django        |
 | Express       | Flask         |
@@ -99,9 +98,8 @@ for page_num in range(total_pages):
         language_color = language_colors.get(language, "")
 
         # Add the repository to the README content with formatting
-        readme_content += f"### [{repo['name']}]({repo['html_url']})\n"
-        readme_content += f"- **Primary language**: {language_color} {language}\n"
-        readme_content += f"- **Created on**: {formatted_date}\n\n"
+        readme_content += f"### [{repo['name']}]({repo['html_url']}) <span style='border:1px solid #ddd; border-radius:3px; padding:2px 6px;'>Public</span>\n"
+        readme_content += f"<sub>{language_color} {language} • Created on {formatted_date}</sub>\n\n"
 
 # Write the generated content to the README.md file
 with open("README.md", "w") as readme_file:
