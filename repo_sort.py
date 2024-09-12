@@ -1,7 +1,6 @@
 import requests
 from operator import itemgetter
 from datetime import datetime
-import pytz
 import os
 from dotenv import load_dotenv
 import subprocess
@@ -17,7 +16,13 @@ all_repos = []
 page = 1
 per_page = 30
 
-est = pytz.timezone('US/Eastern')
+language_colors = {
+    "HTML": "#e34c26",
+    "JavaScript": "#f1e05a",
+    "Python": "#3572A5",
+    "TypeScript": "#3178c6",
+    "PHP": "#4F5D95"
+}
 
 while True:
     response = requests.get(
@@ -39,7 +44,6 @@ while True:
 sorted_repos = sorted(all_repos, key=itemgetter('created_at'), reverse=True)
 
 # Static README content you want to keep above your repo list
-
 readme_content = """
 # Hi, I'm Sean 👋
 
@@ -51,14 +55,10 @@ I have a demonstrated proficiency in software development, with a proven track r
 </tr>
 </table>
 
-## I've worked with:
-
 ### Skills/Tools:
 
 ![My Skills](https://skillicons.dev/icons?i=js,react,express,mongodb,nodejs,nextjs,threejs,tailwind,python,django,flask,postgres,postman,vercel,git)
 
-
-| Skills        |               |
 | ------------- | ------------- |
 | JavaScript    | Python        |
 | React         | Django        |
@@ -87,31 +87,22 @@ for page_num in range(total_pages):
     page_repos = sorted_repos[start_index:end_index]
     
     for repo in page_repos:
-        # Parse the UTC creation date
+        # Parse the UTC creation date (keeping it in UTC)
         utc_time = datetime.strptime(repo['created_at'], "%Y-%m-%dT%H:%M:%SZ")
-        est_time = utc_time.replace(tzinfo=pytz.utc).astimezone(est)
 
-        # Format the date and time in EST
-        formatted_date = est_time.strftime("%m-%d-%Y")
-        formatted_time = est_time.strftime("%I:%M %p")
+        # Format the date in MM-DD-YYYY format (no time)
+        formatted_date = utc_time.strftime("%m-%d-%Y")
 
-        # Get the last updated date in EST
-        last_updated_utc = datetime.strptime(repo['updated_at'], "%Y-%m-%dT%H:%M:%SZ")
-        last_updated_est = last_updated_utc.replace(tzinfo=pytz.utc).astimezone(est)
-        last_updated_formatted = last_updated_est.strftime("%m-%d-%Y %I:%M %p")
-
-        # Get the repo description (if available)
-        description = repo['description'] if repo['description'] else "No description"
-
-        # Get the primary language (if available)
-        language = repo['language'] if repo['language'] else "Unknown"
+        # Get the primary language and its associated color
+        language = repo['language']
+        language_color = language_colors.get(language)
 
         # Add the repository to the README content with formatting
         readme_content += f"### [{repo['name']}]({repo['html_url']})\n"
-        readme_content += f"- **Primary language**: {language}\n"
-        readme_content += f"- **Created on**: {formatted_date} at {formatted_time} EST\n"
+        readme_content += f"- **Primary language**: <span style='color:{language_color}'>{language}</span>\n"
+        readme_content += f"- **Created on**: {formatted_date}\n\n"
 
-# Write to the README.md file in the repository
+# Write the generated content to the README.md file
 with open("README.md", "w") as readme_file:
     readme_file.write(readme_content)
 
@@ -119,7 +110,7 @@ print("README.md updated with personal content and paginated repositories.")
 
 # Stage the changes, commit, and push to GitHub using subprocess
 subprocess.run(["git", "add", "README.md"], check=True)
-subprocess.run(["git", "commit", "-m", "Update sorted repositories"], check=True)
+subprocess.run(["git", "commit", "-m", "Updated README with sorted repositories and language colors"], check=True)
 subprocess.run(["git", "push"], check=True)
 
 print("Changes committed and pushed to GitHub.")
