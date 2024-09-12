@@ -66,7 +66,7 @@ I have a demonstrated proficiency in software development, with a proven track r
 
 ### [leetcode](https://github.com/Scurrlin/leetcode)
 🟡 JavaScript • Created on 07-19-2024
-🍴 Forked from neetcode-gh/leetcode
+Forked from neetcode-gh/leetcode
 ---
 
 ### [openai_codex](https://github.com/Scurrlin/openai_codex)
@@ -167,12 +167,12 @@ I have a demonstrated proficiency in software development, with a proven track r
 
 ### [My-Portfolio](https://github.com/Scurrlin/My-Portfolio)
 🟡 JavaScript • Created on 08-07-2023
-🍴 Forked from paytonjewell/ReactPortfolioTemplate
+Forked from paytonjewell/ReactPortfolioTemplate
 ---
 
 ### [memeapp](https://github.com/Scurrlin/memeapp)
 🔵 Python • Created on 09-02-2022
-🍴 Forked from vnhotsombath/memeapp
+Forked from vnhotsombath/memeapp
 
 <a name='contributions'></a>
 
