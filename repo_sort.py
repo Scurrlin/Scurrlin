@@ -98,15 +98,15 @@ for page_num in range(total_pages):
                     repo_details = repo_details_response.json()
                     if 'parent' in repo_details:
                         parent = repo_details['parent']['full_name']
-                        fork_info = f"🍴 Forked from {parent}"
+                        fork_info = f"Forked from {parent}"
                     else:
-                        fork_info = "🍴 Forked from unknown"
+                        fork_info = "Forked from unknown"
                 else:
                     print(f"Failed to fetch parent details: {repo_details_response.status_code}")
-                    fork_info = "🍴 Forked from unknown"
+                    fork_info = "Forked from unknown"
             else:
                 parent = repo['parent']['full_name']
-                fork_info = f"🍴 Forked from {parent}"
+                fork_info = f"Forked from {parent}"
         else:
             fork_info = ""
 
