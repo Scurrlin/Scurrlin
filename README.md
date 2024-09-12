@@ -9,14 +9,10 @@ I have a demonstrated proficiency in software development, with a proven track r
 </tr>
 </table>
 
-## I've worked with:
-
 ### Skills/Tools:
 
 ![My Skills](https://skillicons.dev/icons?i=js,react,express,mongodb,nodejs,nextjs,threejs,tailwind,python,django,flask,postgres,postman,vercel,git)
 
-
-| Skills        |               |
 | ------------- | ------------- |
 | JavaScript    | Python        |
 | React         | Django        |
@@ -34,118 +30,156 @@ I have a demonstrated proficiency in software development, with a proven track r
 ## Page 1
 
 ### [repo_sort](https://github.com/Scurrlin/repo_sort)
-- **Primary language**: Python
-- **Created on**: 09-11-2024 at 05:12 PM EST
+- **Primary language**: <span style='color:#3572A5'>Python</span>
+- **Created on**: 09-11-2024
+
 ### [Aim_Trainer](https://github.com/Scurrlin/Aim_Trainer)
-- **Primary language**: Python
-- **Created on**: 09-09-2024 at 08:49 PM EST
+- **Primary language**: <span style='color:#3572A5'>Python</span>
+- **Created on**: 09-10-2024
+
 ### [iphone_15](https://github.com/Scurrlin/iphone_15)
-- **Primary language**: JavaScript
-- **Created on**: 09-02-2024 at 09:36 AM EST
+- **Primary language**: <span style='color:#f1e05a'>JavaScript</span>
+- **Created on**: 09-02-2024
+
 ### [nike-landing-page](https://github.com/Scurrlin/nike-landing-page)
-- **Primary language**: JavaScript
-- **Created on**: 08-31-2024 at 08:24 PM EST
+- **Primary language**: <span style='color:#f1e05a'>JavaScript</span>
+- **Created on**: 09-01-2024
+
 ### [anime_vault](https://github.com/Scurrlin/anime_vault)
-- **Primary language**: TypeScript
-- **Created on**: 08-30-2024 at 06:14 PM EST
+- **Primary language**: <span style='color:#3178c6'>TypeScript</span>
+- **Created on**: 08-30-2024
+
 ### [brainwave](https://github.com/Scurrlin/brainwave)
-- **Primary language**: JavaScript
-- **Created on**: 08-18-2024 at 10:15 AM EST
+- **Primary language**: <span style='color:#f1e05a'>JavaScript</span>
+- **Created on**: 08-18-2024
+
 ### [blog_php](https://github.com/Scurrlin/blog_php)
-- **Primary language**: PHP
-- **Created on**: 08-12-2024 at 02:21 PM EST
+- **Primary language**: <span style='color:#4F5D95'>PHP</span>
+- **Created on**: 08-12-2024
+
 ### [blog_frontend](https://github.com/Scurrlin/blog_frontend)
-- **Primary language**: HTML
-- **Created on**: 08-02-2024 at 04:33 PM EST
+- **Primary language**: <span style='color:#e34c26'>HTML</span>
+- **Created on**: 08-02-2024
+
 ### [Top_25_DSA](https://github.com/Scurrlin/Top_25_DSA)
-- **Primary language**: Python
-- **Created on**: 07-30-2024 at 07:40 AM EST
+- **Primary language**: <span style='color:#3572A5'>Python</span>
+- **Created on**: 07-30-2024
+
 ### [PyChat](https://github.com/Scurrlin/PyChat)
-- **Primary language**: Python
-- **Created on**: 07-28-2024 at 09:01 AM EST
+- **Primary language**: <span style='color:#3572A5'>Python</span>
+- **Created on**: 07-28-2024
+
 ### [LC_Pareto_Set](https://github.com/Scurrlin/LC_Pareto_Set)
-- **Primary language**: Python
-- **Created on**: 07-21-2024 at 04:36 PM EST
+- **Primary language**: <span style='color:#3572A5'>Python</span>
+- **Created on**: 07-21-2024
+
 ### [leetcode](https://github.com/Scurrlin/leetcode)
-- **Primary language**: JavaScript
-- **Created on**: 07-19-2024 at 07:46 AM EST
+- **Primary language**: <span style='color:#f1e05a'>JavaScript</span>
+- **Created on**: 07-19-2024
+
 ### [openai_codex](https://github.com/Scurrlin/openai_codex)
-- **Primary language**: JavaScript
-- **Created on**: 06-25-2024 at 09:31 AM EST
+- **Primary language**: <span style='color:#f1e05a'>JavaScript</span>
+- **Created on**: 06-25-2024
+
 ### [The_Gall](https://github.com/Scurrlin/The_Gall)
-- **Primary language**: Python
-- **Created on**: 06-07-2024 at 12:46 PM EST
+- **Primary language**: <span style='color:#3572A5'>Python</span>
+- **Created on**: 06-07-2024
+
 ### [LeetCode_75_IMC](https://github.com/Scurrlin/LeetCode_75_IMC)
-- **Primary language**: Python
-- **Created on**: 06-02-2024 at 10:21 PM EST
+- **Primary language**: <span style='color:#3572A5'>Python</span>
+- **Created on**: 06-03-2024
+
 ### [LeetCode_75](https://github.com/Scurrlin/LeetCode_75)
-- **Primary language**: Python
-- **Created on**: 06-02-2024 at 10:19 PM EST
+- **Primary language**: <span style='color:#3572A5'>Python</span>
+- **Created on**: 06-03-2024
+
 ### [3d-portfolio-redux](https://github.com/Scurrlin/3d-portfolio-redux)
-- **Primary language**: TypeScript
-- **Created on**: 05-22-2024 at 06:23 AM EST
+- **Primary language**: <span style='color:#3178c6'>TypeScript</span>
+- **Created on**: 05-22-2024
+
 ### [yoom](https://github.com/Scurrlin/yoom)
-- **Primary language**: TypeScript
-- **Created on**: 05-19-2024 at 07:05 PM EST
+- **Primary language**: <span style='color:#3178c6'>TypeScript</span>
+- **Created on**: 05-19-2024
+
 ### [react-native-101](https://github.com/Scurrlin/react-native-101)
-- **Primary language**: JavaScript
-- **Created on**: 05-07-2024 at 11:15 AM EST
+- **Primary language**: <span style='color:#f1e05a'>JavaScript</span>
+- **Created on**: 05-07-2024
+
 ### [Tech-Haven](https://github.com/Scurrlin/Tech-Haven)
-- **Primary language**: TypeScript
-- **Created on**: 03-20-2024 at 10:38 AM EST
+- **Primary language**: <span style='color:#3178c6'>TypeScript</span>
+- **Created on**: 03-20-2024
+
 ### [Kata-Machine](https://github.com/Scurrlin/Kata-Machine)
-- **Primary language**: TypeScript
-- **Created on**: 03-20-2024 at 07:42 AM EST
+- **Primary language**: <span style='color:#3178c6'>TypeScript</span>
+- **Created on**: 03-20-2024
+
 ### [House_Party](https://github.com/Scurrlin/House_Party)
-- **Primary language**: Python
-- **Created on**: 03-04-2024 at 08:54 AM EST
+- **Primary language**: <span style='color:#3572A5'>Python</span>
+- **Created on**: 03-04-2024
+
 ### [Lift-Off](https://github.com/Scurrlin/Lift-Off)
-- **Primary language**: JavaScript
-- **Created on**: 01-17-2024 at 12:25 PM EST
+- **Primary language**: <span style='color:#f1e05a'>JavaScript</span>
+- **Created on**: 01-17-2024
+
 ### [3D-Portfolio](https://github.com/Scurrlin/3D-Portfolio)
-- **Primary language**: JavaScript
-- **Created on**: 01-15-2024 at 10:23 AM EST
+- **Primary language**: <span style='color:#f1e05a'>JavaScript</span>
+- **Created on**: 01-15-2024
+
 ### [Artofficial](https://github.com/Scurrlin/Artofficial)
-- **Primary language**: JavaScript
-- **Created on**: 01-14-2024 at 04:30 PM EST
+- **Primary language**: <span style='color:#f1e05a'>JavaScript</span>
+- **Created on**: 01-14-2024
+
 ### [Crypt0Watch](https://github.com/Scurrlin/Crypt0Watch)
-- **Primary language**: JavaScript
-- **Created on**: 01-14-2024 at 11:33 AM EST
+- **Primary language**: <span style='color:#f1e05a'>JavaScript</span>
+- **Created on**: 01-14-2024
+
 ### [nextjs-dashboard](https://github.com/Scurrlin/nextjs-dashboard)
-- **Primary language**: TypeScript
-- **Created on**: 12-13-2023 at 08:08 AM EST
+- **Primary language**: <span style='color:#3178c6'>TypeScript</span>
+- **Created on**: 12-13-2023
+
 ### [Python_DSA](https://github.com/Scurrlin/Python_DSA)
-- **Primary language**: Python
-- **Created on**: 11-27-2023 at 06:03 PM EST
+- **Primary language**: <span style='color:#3572A5'>Python</span>
+- **Created on**: 11-27-2023
+
 ### [Currency-Converter](https://github.com/Scurrlin/Currency-Converter)
-- **Primary language**: HTML
-- **Created on**: 10-20-2023 at 05:59 PM EST
+- **Primary language**: <span style='color:#e34c26'>HTML</span>
+- **Created on**: 10-20-2023
+
 ### [Not-ify](https://github.com/Scurrlin/Not-ify)
-- **Primary language**: Python
-- **Created on**: 10-17-2023 at 12:02 AM EST
+- **Primary language**: <span style='color:#3572A5'>Python</span>
+- **Created on**: 10-17-2023
+
 ## Page 2
 
 ### [AI_Article_Summarizer_Clone](https://github.com/Scurrlin/AI_Article_Summarizer_Clone)
-- **Primary language**: JavaScript
-- **Created on**: 09-10-2023 at 10:03 AM EST
+- **Primary language**: <span style='color:#f1e05a'>JavaScript</span>
+- **Created on**: 09-10-2023
+
 ### [Scurrlin](https://github.com/Scurrlin/Scurrlin)
-- **Primary language**: Python
-- **Created on**: 08-23-2023 at 11:18 PM EST
+- **Primary language**: <span style='color:#3572A5'>Python</span>
+- **Created on**: 08-24-2023
+
 ### [Dev-Blog](https://github.com/Scurrlin/Dev-Blog)
-- **Primary language**: JavaScript
-- **Created on**: 08-15-2023 at 06:30 AM EST
+- **Primary language**: <span style='color:#f1e05a'>JavaScript</span>
+- **Created on**: 08-15-2023
+
 ### [Python-Calculator](https://github.com/Scurrlin/Python-Calculator)
-- **Primary language**: Python
-- **Created on**: 08-14-2023 at 12:46 AM EST
+- **Primary language**: <span style='color:#3572A5'>Python</span>
+- **Created on**: 08-14-2023
+
 ### [JS-Calculator](https://github.com/Scurrlin/JS-Calculator)
-- **Primary language**: HTML
-- **Created on**: 08-14-2023 at 12:38 AM EST
+- **Primary language**: <span style='color:#e34c26'>HTML</span>
+- **Created on**: 08-14-2023
+
 ### [Interval-Training-Game](https://github.com/Scurrlin/Interval-Training-Game)
-- **Primary language**: JavaScript
-- **Created on**: 08-13-2023 at 11:24 PM EST
+- **Primary language**: <span style='color:#f1e05a'>JavaScript</span>
+- **Created on**: 08-14-2023
+
 ### [My-Portfolio](https://github.com/Scurrlin/My-Portfolio)
-- **Primary language**: JavaScript
-- **Created on**: 08-07-2023 at 03:20 PM EST
+- **Primary language**: <span style='color:#f1e05a'>JavaScript</span>
+- **Created on**: 08-07-2023
+
 ### [memeapp](https://github.com/Scurrlin/memeapp)
-- **Primary language**: Python
-- **Created on**: 09-02-2022 at 05:06 PM EST
+- **Primary language**: <span style='color:#3572A5'>Python</span>
+- **Created on**: 09-02-2022
+
