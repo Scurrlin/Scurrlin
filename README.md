@@ -15,7 +15,7 @@ I have a demonstrated proficiency in software development, with a proven track r
 
 ### [Skip to Contributions](#contributions)
 
-### Repositories sorted by date created
+### Repositories sorted by date created:
 
 ## Page 1
 
