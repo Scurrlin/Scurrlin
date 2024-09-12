@@ -45,7 +45,6 @@ sorted_repos = sorted(all_repos, key=itemgetter('created_at'), reverse=True)
 # Static README content you want to keep above your repo list
 readme_content = """
 <a name="top"></a>
-
 # Hi, I'm Sean 👋
 
 <table>
