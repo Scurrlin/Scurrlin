@@ -17,11 +17,11 @@ page = 1
 per_page = 30
 
 language_colors = {
-    "HTML": "#e34c26",
-    "JavaScript": "#f1e05a",
-    "Python": "#3572A5",
-    "TypeScript": "#3178c6",
-    "PHP": "#4F5D95"
+    "HTML": "🔴",
+    "JavaScript": "🟡",
+    "Python": "🔵",
+    "TypeScript": "🔵",
+    "PHP": "🟣"
 }
 
 while True:
@@ -70,6 +70,7 @@ I have a demonstrated proficiency in software development, with a proven track r
 | Tailwind CSS  | Postman API   |
 | Payload CMS   | REST Framework|
 | Appwrite BaaS | Git           |
+| ------------- | ------------- |
 
 ## Repositories sorted by date created
 
@@ -90,16 +91,16 @@ for page_num in range(total_pages):
         # Parse the UTC creation date (keeping it in UTC)
         utc_time = datetime.strptime(repo['created_at'], "%Y-%m-%dT%H:%M:%SZ")
 
-        # Format the date in MM-DD-YYYY format (no time)
+        # Format the date in MM-DD-YYYY format
         formatted_date = utc_time.strftime("%m-%d-%Y")
 
-        # Get the primary language and its associated color
+        # Get the primary language and its associated colored circle
         language = repo['language']
-        language_color = language_colors.get(language)
+        language_color = language_colors.get(language, "")
 
         # Add the repository to the README content with formatting
         readme_content += f"### [{repo['name']}]({repo['html_url']})\n"
-        readme_content += f"- **Primary language**: <span style='color:{language_color}'>{language}</span>\n"
+        readme_content += f"- **Primary language**: {language_color} {language}\n"
         readme_content += f"- **Created on**: {formatted_date}\n\n"
 
 # Write the generated content to the README.md file
@@ -110,7 +111,7 @@ print("README.md updated with personal content and paginated repositories.")
 
 # Stage the changes, commit, and push to GitHub using subprocess
 subprocess.run(["git", "add", "README.md"], check=True)
-subprocess.run(["git", "commit", "-m", "Updated sorted repositories"], check=True)
+subprocess.run(["git", "commit", "-m", "Updated README with sorted repositories and language colors"], check=True)
 subprocess.run(["git", "push"], check=True)
 
 print("Changes committed and pushed to GitHub.")
