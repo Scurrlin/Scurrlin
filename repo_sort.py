@@ -88,8 +88,25 @@ for page_num in range(total_pages):
 
         # Handle forked repos
         if repo['fork']:
-            parent = repo['parent']['full_name'] if 'parent' in repo else "unknown"
-            fork_info = f"(Forked from {parent})"
+            # Check if parent info is available
+            if 'parent' not in repo:
+                # Make additional request to get the full repo details
+                repo_details_url = repo['url']
+                repo_details_response = requests.get(repo_details_url, auth=(username, token))
+                
+                if repo_details_response.status_code == 200:
+                    repo_details = repo_details_response.json()
+                    if 'parent' in repo_details:
+                        parent = repo_details['parent']['full_name']
+                        fork_info = f"(Forked from {parent})"
+                    else:
+                        fork_info = "(Forked from unknown)"
+                else:
+                    print(f"Failed to fetch parent details: {repo_details_response.status_code}")
+                    fork_info = "(Forked from unknown)"
+            else:
+                parent = repo['parent']['full_name']
+                fork_info = f"(Forked from {parent})"
         else:
             fork_info = ""
 
