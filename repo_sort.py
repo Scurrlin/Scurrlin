@@ -44,6 +44,8 @@ sorted_repos = sorted(all_repos, key=itemgetter('created_at'), reverse=True)
 
 # Static README content you want to keep above your repo list
 readme_content = """
+<a name="top"></a>
+
 # Hi, I'm Sean 👋
 
 <table>
@@ -95,6 +97,9 @@ for page_num in range(total_pages):
 
 # Add an anchor tag at the end for "Skip to Contributions"
 readme_content += "\n<a name='contributions'></a>\n"
+
+# Add the "Back to Top" link at the bottom
+readme_content += "\n[Back to Top](#top)\n"
 
 # Write the generated content to the README.md file
 with open("README.md", "w") as readme_file:
