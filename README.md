@@ -1,5 +1,6 @@
 
 <a name="top"></a>
+
 # Hi, I'm Sean 👋
 
 <table>
@@ -14,7 +15,7 @@ I have a demonstrated proficiency in software development, with a proven track r
 
 ![My Skills](https://skillicons.dev/icons?i=js,react,express,mongodb,nodejs,nextjs,threejs,tailwind,python,django,flask,postgres,postman,vercel,git)
 
-### [Skip to Contributions](#contributions)
+### <u>[Skip to Contributions](#contributions)</u>
 
 ### Repositories sorted by date created:
 
