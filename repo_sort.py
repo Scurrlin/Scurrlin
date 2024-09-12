@@ -110,13 +110,9 @@ for page_num in range(total_pages):
         else:
             fork_info = ""
 
-        # Add repository name and details without headers to ensure default font size
-        readme_content += f"- [{repo['name']}]({repo['html_url']})\n"  # Regular text for repo name (no ###)
-        readme_content += f"  {language_color} {language} • Created on {formatted_date}  \n"  # Two spaces at the end ensure the fork info is on a new line
-
-        # If there is fork info, add it on a new line
-        if fork_info:
-            readme_content += f"  {fork_info}\n"
+        # Add the repository to the README content
+        readme_content += f"### [{repo['name']}]({repo['html_url']})\n"
+        readme_content += f"{language_color} {language} • Created on {formatted_date} {fork_info}\n\n"
 
         # Omit separator if it's the last repository on the page
         if index < len(page_repos) - 1:
