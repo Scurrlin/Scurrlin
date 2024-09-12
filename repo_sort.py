@@ -59,17 +59,6 @@ I have a demonstrated proficiency in software development, with a proven track r
 
 ![My Skills](https://skillicons.dev/icons?i=js,react,express,mongodb,nodejs,nextjs,threejs,tailwind,python,django,flask,postgres,postman,vercel,git)
 
-| JavaScript    | Python        |
-| React         | Django        |
-| Express       | Flask         |
-| NodeJS        | PostgreSQL    |
-| NextJS        | Render        |
-| ThreeJS       | Hostinger     |
-| MongoDB       | Vercel        |
-| Tailwind CSS  | Postman API   |
-| Payload CMS   | REST Framework|
-| Appwrite BaaS | Git           |
-
 ## Repositories sorted by date created
 
 """
@@ -98,7 +87,7 @@ for page_num in range(total_pages):
         # Add the repository to the README content
         readme_content += f"### [{repo['name']}]({repo['html_url']})\n"
         readme_content += f"{language_color} {language} • Created on {formatted_date}\n\n"
-        readme_content += "<hr>\n\n"
+        readme_content += "---\n\n"
 
 # Write the generated content to the README.md file
 with open("README.md", "w") as readme_file:
