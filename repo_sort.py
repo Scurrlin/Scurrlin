@@ -60,8 +60,6 @@ I have a demonstrated proficiency in software development, with a proven track r
 ![My Skills](https://skillicons.dev/icons?i=js,react,express,mongodb,nodejs,nextjs,threejs,tailwind,python,django,flask,postgres,postman,vercel,git)
 
 | JavaScript    | Python        |
-| ------------- | ------------- |
-| JavaScript    | Python        |
 | React         | Django        |
 | Express       | Flask         |
 | NodeJS        | PostgreSQL    |
@@ -82,7 +80,6 @@ total_pages = (len(sorted_repos) + repos_per_page - 1) // repos_per_page
 for page_num in range(total_pages):
     readme_content += f"## Page {page_num + 1}\n\n"
     
-    # Get the start and end index for this page
     start_index = page_num * repos_per_page
     end_index = start_index + repos_per_page
     page_repos = sorted_repos[start_index:end_index]
@@ -101,6 +98,7 @@ for page_num in range(total_pages):
         # Add the repository to the README content
         readme_content += f"### [{repo['name']}]({repo['html_url']})\n"
         readme_content += f"{language_color} {language} • Created on {formatted_date}\n\n"
+        readme_content += "<hr>\n\n"
 
 # Write the generated content to the README.md file
 with open("README.md", "w") as readme_file:
