@@ -112,7 +112,7 @@ for page_num in range(total_pages):
 
         # Add the repository to the README content
         readme_content += f"### [{repo['name']}]({repo['html_url']})\n"
-        readme_content += f"{language_color} {language} • Created on {formatted_date}  \n"  # Note the two spaces before the new line
+        readme_content += f"###{language_color} {language} • Created on {formatted_date}  \n"  # Note the two spaces before the new line
 
         # If there is fork info, add it on a new line
         if fork_info:
