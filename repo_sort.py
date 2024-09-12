@@ -86,6 +86,13 @@ for page_num in range(total_pages):
         language = repo['language']
         language_color = language_colors.get(language, "")
 
+        # Handle forked repos
+        if repo['fork']:
+            parent = repo['parent']['full_name'] if 'parent' in repo else "unknown"
+            fork_info = f"(Forked from {parent})"
+        else:
+            fork_info = ""
+
         # Add the repository to the README content
         readme_content += f"### [{repo['name']}]({repo['html_url']})\n"
         readme_content += f"{language_color} {language} • Created on {formatted_date}\n\n"
