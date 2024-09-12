@@ -98,21 +98,25 @@ for page_num in range(total_pages):
                     repo_details = repo_details_response.json()
                     if 'parent' in repo_details:
                         parent = repo_details['parent']['full_name']
-                        fork_info = f"(Forked from {parent})"
+                        fork_info = f"🍴 Forked from {parent}"
                     else:
-                        fork_info = "(Forked from unknown)"
+                        fork_info = "🍴 Forked from unknown"
                 else:
                     print(f"Failed to fetch parent details: {repo_details_response.status_code}")
-                    fork_info = "(Forked from unknown)"
+                    fork_info = "🍴 Forked from unknown"
             else:
                 parent = repo['parent']['full_name']
-                fork_info = f"(Forked from {parent})"
+                fork_info = f"🍴 Forked from {parent}"
         else:
             fork_info = ""
 
         # Add the repository to the README content
         readme_content += f"### [{repo['name']}]({repo['html_url']})\n"
-        readme_content += f"{language_color} {language} • Created on {formatted_date} {fork_info}\n\n"
+        readme_content += f"{language_color} {language} • Created on {formatted_date}\n"
+
+        # If there is fork info, add it on a new line
+        if fork_info:
+            readme_content += f"{fork_info}\n"
 
         # Omit separator if it's the last repository on the page
         if index < len(page_repos) - 1:
