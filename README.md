@@ -168,8 +168,6 @@ I have a demonstrated proficiency in software development, with a proven track r
 ### [Not-ify](https://github.com/Scurrlin/Not-ify)
 🔵 Python • Created on 10-17-2023
 
----
-
 ## Page 2
 
 ### [AI_Article_Summarizer_Clone](https://github.com/Scurrlin/AI_Article_Summarizer_Clone)
@@ -209,8 +207,6 @@ I have a demonstrated proficiency in software development, with a proven track r
 
 ### [memeapp](https://github.com/Scurrlin/memeapp)
 🔵 Python • Created on 09-02-2022
-
----
 
 
 <a name='contributions'></a>
