@@ -89,7 +89,7 @@ for page_num in range(total_pages):
         readme_content += f"### [{repo['name']}]({repo['html_url']})\n"
         readme_content += f"{language_color} {language} • Created on {formatted_date}\n\n"
         
-        # Only add the line if it's not the last repository on the page
+        # Omit separator if it's the last repository on the page
         if index < len(page_repos) - 1:
             readme_content += "---\n\n"
 
