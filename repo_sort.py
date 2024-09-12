@@ -1,6 +1,5 @@
 import requests
 from operator import itemgetter
-from datetime import datetime
 import os
 from dotenv import load_dotenv
 import subprocess
@@ -76,11 +75,11 @@ for page_num in range(total_pages):
     page_repos = sorted_repos[start_index:end_index]
     
     for index, repo in enumerate(page_repos):
-        # Parse the UTC creation date
-        utc_time = datetime.strptime(repo['created_at'], "%Y-%m-%dT%H:%M:%SZ")
-
-        # Format the date in MM-DD-YYYY format
-        formatted_date = utc_time.strftime("%m-%d-%Y")
+        formatted_date = repo['created_at'][:10]
+    
+        # Reformat the date from YYYY-MM-DD to MM-DD-YYYY
+        year, month, day = formatted_date.split('-')
+        formatted_date = f"{month}-{day}-{year}"
 
         # Get the primary language and its color
         language = repo['language']
