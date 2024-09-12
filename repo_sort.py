@@ -89,7 +89,10 @@ for page_num in range(total_pages):
         # Add the repository to the README content
         readme_content += f"### [{repo['name']}]({repo['html_url']})\n"
         readme_content += f"{language_color} {language} • Created on {formatted_date}\n\n"
-        readme_content += "---\n\n"
+
+        # Omit separator if it's the last repository on the page
+        if index < len(page_repos) - 1:
+            readme_content += "---\n\n"
 
 # Add an anchor tag at the end for "Skip to Contributions"
 readme_content += "\n<a name='contributions'></a>\n"
