@@ -99,11 +99,9 @@ for page_num in range(total_pages):
                 else:
                     print(f"Failed to fetch parent details: {repo_details_response.status_code}")
                     fork_info = "🍴 Forked from unknown"
-
             else:
                 parent = repo['parent']['full_name']
                 fork_info = f"🍴 Forked from [{parent}](https://github.com/{parent})"
-                
         else:
             fork_info = ""
 
