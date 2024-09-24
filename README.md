@@ -20,6 +20,12 @@ I have a demonstrated proficiency in software development, with a proven track r
 ### Repositories sorted by date created:
 ## Page 1
 
+### [LC_Python_X_Cpp](https://github.com/Scurrlin/LC_Python_X_Cpp)
+🔴 C++ • Created on 09-24-2024  
+
+
+---
+
 ### [repo_sort](https://github.com/Scurrlin/repo_sort)
 🔵 Python • Created on 09-11-2024  
 
@@ -192,13 +198,13 @@ I have a demonstrated proficiency in software development, with a proven track r
 🔵 Python • Created on 10-17-2023  
 
 
----
+## Page 2
 
 ### [AI_Article_Summarizer_Clone](https://github.com/Scurrlin/AI_Article_Summarizer_Clone)
 🟡 JavaScript • Created on 09-10-2023  
 
 
-## Page 2
+---
 
 ### [Scurrlin](https://github.com/Scurrlin/Scurrlin)
 🔵 Python • Created on 08-24-2023  
