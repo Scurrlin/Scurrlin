@@ -20,7 +20,7 @@ I have a demonstrated proficiency in software development, with a proven track r
 ### Repositories sorted by date created:
 ## Page 1
 
-### [LC_Python_X_Cpp](https://github.com/Scurrlin/LC_Python_X_Cpp)
+### [LC_Python_vs_Cpp](https://github.com/Scurrlin/LC_Python_vs_Cpp)
 🔴 C++ • Created on 09-24-2024  
 
 
