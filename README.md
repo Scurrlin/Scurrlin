@@ -20,6 +20,12 @@ I have a demonstrated proficiency in software development, with a proven track r
 ### Repositories sorted by date created:
 ## Page 1
 
+### [metaversus](https://github.com/Scurrlin/metaversus)
+🟡 JavaScript • Created on 10-11-2024  
+
+
+---
+
 ### [SPARQL-101](https://github.com/Scurrlin/SPARQL-101)
 🔵 Python • Created on 10-08-2024  
 
@@ -192,13 +198,13 @@ I have a demonstrated proficiency in software development, with a proven track r
 🔵 Python • Created on 11-27-2023  
 
 
----
+## Page 2
 
 ### [Currency-Converter](https://github.com/Scurrlin/Currency-Converter)
 🔴 HTML • Created on 10-20-2023  
 
 
-## Page 2
+---
 
 ### [Not-ify](https://github.com/Scurrlin/Not-ify)
 🔵 Python • Created on 10-17-2023  
