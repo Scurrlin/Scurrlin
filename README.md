@@ -1,4 +1,3 @@
-
 <a name="top"></a>
 
 # Hi, I'm Sean 👋
