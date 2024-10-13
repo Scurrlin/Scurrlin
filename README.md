@@ -56,12 +56,6 @@ I have a demonstrated proficiency in software development, with a proven track r
 
 ---
 
-### [nike-landing-page](https://github.com/Scurrlin/nike-landing-page)
-🟡 JavaScript • Created on 09-01-2024  
-
-
----
-
 ### [anime_vault](https://github.com/Scurrlin/anime_vault)
 🔵 TypeScript • Created on 08-30-2024  
 
@@ -198,13 +192,13 @@ I have a demonstrated proficiency in software development, with a proven track r
 🔵 Python • Created on 11-27-2023  
 
 
-## Page 2
+---
 
 ### [Currency-Converter](https://github.com/Scurrlin/Currency-Converter)
 🔴 HTML • Created on 10-20-2023  
 
 
----
+## Page 2
 
 ### [Not-ify](https://github.com/Scurrlin/Not-ify)
 🔵 Python • Created on 10-17-2023  
