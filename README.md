@@ -240,12 +240,6 @@ I have a demonstrated proficiency in software development, with a proven track r
 🟡 JavaScript • Created on 08-07-2023  
 🍴 Forked from [paytonjewell/ReactPortfolioTemplate](https://github.com/paytonjewell/ReactPortfolioTemplate)
 
----
-
-### [memeapp](https://github.com/Scurrlin/memeapp)
-🔵 Python • Created on 09-02-2022  
-🍴 Forked from [vnhotsombath/memeapp](https://github.com/vnhotsombath/memeapp)
-
 
 <a name='contributions'></a>
 
