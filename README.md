@@ -81,7 +81,7 @@ I have a demonstrated proficiency in software development, with a proven track r
 ---
 
 ### [blog_frontend](https://github.com/Scurrlin/blog_frontend)
-🔴 HTML • Created on 08-02-2024  
+🟠 HTML • Created on 08-02-2024  
 
 
 ---
@@ -201,7 +201,7 @@ I have a demonstrated proficiency in software development, with a proven track r
 ## Page 2
 
 ### [Currency-Converter](https://github.com/Scurrlin/Currency-Converter)
-🔴 HTML • Created on 10-20-2023  
+🟠 HTML • Created on 10-20-2023  
 
 
 ---
