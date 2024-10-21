@@ -200,12 +200,6 @@ I have a demonstrated proficiency in software development, with a proven track r
 
 ## Page 2
 
-### [Currency-Converter](https://github.com/Scurrlin/Currency-Converter)
-🟠 HTML • Created on 10-20-2023  
-
-
----
-
 ### [Not-ify](https://github.com/Scurrlin/Not-ify)
 🔵 Python • Created on 10-17-2023  
 
