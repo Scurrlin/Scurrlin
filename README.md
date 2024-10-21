@@ -20,6 +20,12 @@ I have a demonstrated proficiency in software development, with a proven track r
 ### Repositories sorted by date created:
 ## Page 1
 
+### [LC_Python_vs_C](https://github.com/Scurrlin/LC_Python_vs_C)
+🔵 Python • Created on 10-21-2024  
+
+
+---
+
 ### [LC_Python_vs_CSharp](https://github.com/Scurrlin/LC_Python_vs_CSharp)
 🟢 C# • Created on 10-13-2024  
 
@@ -192,16 +198,10 @@ I have a demonstrated proficiency in software development, with a proven track r
 🟡 JavaScript • Created on 01-14-2024  
 
 
----
+## Page 2
 
 ### [Python_DSA](https://github.com/Scurrlin/Python_DSA)
 🔵 Python • Created on 11-27-2023  
-
-
-## Page 2
-
-### [Not-ify](https://github.com/Scurrlin/Not-ify)
-🔵 Python • Created on 10-17-2023  
 
 
 ---
