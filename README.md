@@ -224,12 +224,6 @@ I have a demonstrated proficiency in software development, with a proven track r
 
 ---
 
-### [Dev-Blog](https://github.com/Scurrlin/Dev-Blog)
-🟡 JavaScript • Created on 08-15-2023  
-
-
----
-
 ### [Python-Calculator](https://github.com/Scurrlin/Python-Calculator)
 🔵 Python • Created on 08-14-2023  
 
