@@ -240,12 +240,6 @@ I have a demonstrated proficiency in software development, with a proven track r
 🟡 JavaScript • Created on 08-14-2023  
 
 
----
-
-### [My-Portfolio](https://github.com/Scurrlin/My-Portfolio)
-🟡 JavaScript • Created on 08-07-2023  
-🍴 Forked from [paytonjewell/ReactPortfolioTemplate](https://github.com/paytonjewell/ReactPortfolioTemplate)
-
 
 <a name='contributions'></a>
 
