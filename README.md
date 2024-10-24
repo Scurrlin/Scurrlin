@@ -164,12 +164,6 @@ I have a demonstrated proficiency in software development, with a proven track r
 
 ---
 
-### [Kata-Machine](https://github.com/Scurrlin/Kata-Machine)
-🔵 TypeScript • Created on 03-20-2024  
-
-
----
-
 ### [House_Party](https://github.com/Scurrlin/House_Party)
 🔵 Python • Created on 03-04-2024  
 
@@ -198,13 +192,13 @@ I have a demonstrated proficiency in software development, with a proven track r
 🟡 JavaScript • Created on 01-14-2024  
 
 
-## Page 2
+---
 
 ### [Python_DSA](https://github.com/Scurrlin/Python_DSA)
 🔵 Python • Created on 11-27-2023  
 
 
----
+## Page 2
 
 ### [AI_Article_Summarizer_Clone](https://github.com/Scurrlin/AI_Article_Summarizer_Clone)
 🟡 JavaScript • Created on 09-10-2023  
