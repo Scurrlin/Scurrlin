@@ -56,12 +56,6 @@ I have a demonstrated proficiency in software development, with a proven track r
 
 ---
 
-### [Aim_Trainer](https://github.com/Scurrlin/Aim_Trainer)
-🔵 Python • Created on 09-10-2024  
-
-
----
-
 ### [iphone_15](https://github.com/Scurrlin/iphone_15)
 🟡 JavaScript • Created on 09-02-2024  
 
@@ -198,13 +192,13 @@ I have a demonstrated proficiency in software development, with a proven track r
 🔵 Python • Created on 11-27-2023  
 
 
-## Page 2
+---
 
 ### [AI_Article_Summarizer_Clone](https://github.com/Scurrlin/AI_Article_Summarizer_Clone)
 🟡 JavaScript • Created on 09-10-2023  
 
 
----
+## Page 2
 
 ### [Scurrlin](https://github.com/Scurrlin/Scurrlin)
 🔵 Python • Created on 08-24-2023  
