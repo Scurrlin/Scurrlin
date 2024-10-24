@@ -218,12 +218,6 @@ I have a demonstrated proficiency in software development, with a proven track r
 
 ---
 
-### [Python-Calculator](https://github.com/Scurrlin/Python-Calculator)
-🔵 Python • Created on 08-14-2023  
-
-
----
-
 ### [Interval-Training-Game](https://github.com/Scurrlin/Interval-Training-Game)
 🟡 JavaScript • Created on 08-14-2023  
 
