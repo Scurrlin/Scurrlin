@@ -21,7 +21,7 @@ I have a demonstrated proficiency in software development, with a proven track r
 ## Page 1
 
 ### [LC_Python_vs_C](https://github.com/Scurrlin/LC_Python_vs_C)
-🔵 Python • Created on 10-21-2024  
+⚪️ C • Created on 10-21-2024  
 
 
 ---
