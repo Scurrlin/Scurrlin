@@ -21,7 +21,7 @@ I have a demonstrated proficiency in software development, with a proven track r
 ## Page 1
 
 ### [horizon](https://github.com/Scurrlin/horizon)
- None • Created on 11-09-2024  
+🔵 TypeScript • Created on 11-09-2024  
 
 
 ---
