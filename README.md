@@ -20,12 +20,6 @@ I have a demonstrated proficiency in software development, with a proven track r
 ### Repositories sorted by date created:
 ## Page 1
 
-### [StoreIt](https://github.com/Scurrlin/StoreIt)
-🔵 TypeScript • Created on 11-18-2024  
-
-
----
-
 ### [LiveDocs](https://github.com/Scurrlin/LiveDocs)
 🔵 TypeScript • Created on 11-09-2024  
 
@@ -198,13 +192,13 @@ I have a demonstrated proficiency in software development, with a proven track r
 🟡 JavaScript • Created on 01-14-2024  
 
 
-## Page 2
+---
 
 ### [Crypt0Watch](https://github.com/Scurrlin/Crypt0Watch)
 🟡 JavaScript • Created on 01-14-2024  
 
 
----
+## Page 2
 
 ### [Python_DSA](https://github.com/Scurrlin/Python_DSA)
 🔵 Python • Created on 11-27-2023  
