@@ -20,6 +20,12 @@ I have a demonstrated proficiency in software development, with a proven track r
 ### Repositories sorted by date created:
 ## Page 1
 
+### [promptopia](https://github.com/Scurrlin/promptopia)
+🟡 JavaScript • Created on 11-28-2024  
+🍴 Forked from [sudo-branch-manager/promptopia](https://github.com/sudo-branch-manager/promptopia)
+
+---
+
 ### [Structy_DSA_Crash_Course](https://github.com/Scurrlin/Structy_DSA_Crash_Course)
 🔵 Python • Created on 11-24-2024  
 
@@ -192,13 +198,13 @@ I have a demonstrated proficiency in software development, with a proven track r
 🟡 JavaScript • Created on 01-17-2024  
 
 
----
+## Page 2
 
 ### [3D-Portfolio](https://github.com/Scurrlin/3D-Portfolio)
 🟡 JavaScript • Created on 01-15-2024  
 
 
-## Page 2
+---
 
 ### [Artofficial](https://github.com/Scurrlin/Artofficial)
 🟡 JavaScript • Created on 01-14-2024  
