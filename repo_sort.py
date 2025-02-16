@@ -27,7 +27,7 @@ language_colors = {
     "C": "⚪️"
 }
 
-# 1. Fetch all repositories (handling pagination).
+# Fetch all repos
 while True:
     response = requests.get(
         f"{url}?page={page}&per_page={per_page}",
@@ -44,10 +44,10 @@ while True:
         print(f"Failed to fetch repositories: {response.status_code}")
         break
 
-# 2. Sort repositories by creation date (newest first).
+# Sort repos by date created
 sorted_repos = sorted(all_repos, key=itemgetter('created_at'), reverse=True)
 
-# 3. Build the main README content.
+# Build main README content
 readme_content = """
 <a name="top"></a>
 
@@ -70,38 +70,35 @@ I have a demonstrated proficiency in software development, with a proven track r
 ### Repositories sorted by date created:
 """
 
-# 4. Calculate pagination details.
+# Calculate pagination details
 repos_per_page = 30
 total_pages = (len(sorted_repos) + repos_per_page - 1) // repos_per_page
 
-# 5. Loop through each page of repositories.
+# Loop through each page of repositories
 for page_num in range(total_pages):
     current_page = page_num + 1
 
-    # Create an anchor for this page.
+    # Create anchor tags
     readme_content += f'<a name="page{current_page}"></a>\n'
 
-    # Build the page heading line:
-    # e.g. "## Page 1 • [2](#page2) • [3](#page3) • [4](#page4)"
+    # Build the page headline
     page_links = []
     for i in range(1, total_pages + 1):
         if i == current_page:
-            # Current page is plain text (no link).
+            # Current page is plain text (no link)
             page_links.append(f"{i}")
         else:
-            # Other pages are links.
+            # Other pages are links
             page_links.append(f"[{i}](#page{i})")
 
-    # Join them with " • "
     heading_line = " • ".join(page_links)
     readme_content += f"## Page {heading_line}\n\n"
 
-    # Determine which repos belong to this page.
     start_index = page_num * repos_per_page
     end_index = start_index + repos_per_page
     page_repos = sorted_repos[start_index:end_index]
 
-    # 6. Add each repository listing.
+    # Add each repo
     for index, repo in enumerate(page_repos):
         formatted_date = repo['created_at'][:10]
         year, month, day = formatted_date.split('-')
@@ -110,7 +107,7 @@ for page_num in range(total_pages):
         language = repo['language']
         language_color = language_colors.get(language, "")
 
-        # Handle fork info.
+        # Handle fork info
         if repo['fork']:
             if 'parent' not in repo:
                 repo_details_url = repo['url']
@@ -134,23 +131,23 @@ for page_num in range(total_pages):
         readme_content += f"### [{repo['name']}]({repo['html_url']})\n"
         readme_content += f"{language_color} {language} • Created on {formatted_date}  \n{fork_info}\n\n"
 
-        # Add a separator if it's not the last repo on this page.
+        # Add a separator if it's not the last repo on the page
         if index < len(page_repos) - 1:
             readme_content += "---\n\n"
 
-# 7. Final anchors and closing sections.
+# Final anchors and closing sections
 readme_content += "\n<a name='contributions'></a>\n"
 readme_content += """
 ### [Back to Top](#top)
 """
 
-# 8. Write the README file.
+# Write the README file
 with open("README.md", "w") as readme_file:
     readme_file.write(readme_content)
 
 print("README.md updated with custom heading pagination and repository listings.")
 
-# 9. Git commit & push.
+# Git commit & push
 subprocess.run(["git", "add", "README.md"], check=True)
 subprocess.run(["git", "commit", "-m", "Update README with new pagination format"], check=True)
 subprocess.run(["git", "push"], check=True)
