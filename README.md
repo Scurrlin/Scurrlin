@@ -18,10 +18,9 @@ I have a demonstrated proficiency in software development, with a proven track r
 ### [Skip to Contributions](#contributions)
 
 ### Repositories sorted by date created:
-<a name="page1"></a>
-## Page 1
 
-**1** [2](#page2)
+<a name="page1"></a>
+**Page 1** **1** [2](#page2)
 
 ### [stencil](https://github.com/Scurrlin/stencil)
 🟡 JavaScript • Created on 12-31-2024  
@@ -203,9 +202,7 @@ I have a demonstrated proficiency in software development, with a proven track r
 
 
 <a name="page2"></a>
-## Page 2
-
-[1](#page1) **2**
+**Page 2** [1](#page1) **2**
 
 ### [3D-Portfolio](https://github.com/Scurrlin/3D-Portfolio)
 🟡 JavaScript • Created on 01-15-2024  
