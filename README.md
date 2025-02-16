@@ -123,12 +123,6 @@ I have a demonstrated proficiency in software development, with a proven track r
 
 ---
 
-### [Top_25_DSA](https://github.com/Scurrlin/Top_25_DSA)
-🔵 Python • Created on 07-30-2024  
-
-
----
-
 ### [PyChat](https://github.com/Scurrlin/PyChat)
 🔵 Python • Created on 07-28-2024  
 
@@ -199,14 +193,14 @@ I have a demonstrated proficiency in software development, with a proven track r
 🟡 JavaScript • Created on 01-17-2024  
 
 
-<a name="page2"></a>
-## Page [1](#page1) • 2
+---
 
 ### [3D-Portfolio](https://github.com/Scurrlin/3D-Portfolio)
 🟡 JavaScript • Created on 01-15-2024  
 
 
----
+<a name="page2"></a>
+## Page [1](#page1) • 2
 
 ### [Artofficial](https://github.com/Scurrlin/Artofficial)
 🟡 JavaScript • Created on 01-14-2024  
