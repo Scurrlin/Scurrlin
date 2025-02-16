@@ -30,7 +30,7 @@ language_colors = {
 # 1. Fetch all repositories (handling pagination).
 while True:
     response = requests.get(
-        f"{url}?page={page}&per_page={per_page}", 
+        f"{url}?page={page}&per_page={per_page}",
         auth=(username, token)
     )
     if response.status_code == 200:
@@ -47,7 +47,7 @@ while True:
 # 2. Sort repositories by creation date (newest first).
 sorted_repos = sorted(all_repos, key=itemgetter('created_at'), reverse=True)
 
-# 3. Start building the README content.
+# 3. Build the main README content.
 readme_content = """
 <a name="top"></a>
 
@@ -76,21 +76,27 @@ total_pages = (len(sorted_repos) + repos_per_page - 1) // repos_per_page
 
 # 5. Loop through each page of repositories.
 for page_num in range(total_pages):
+    current_page = page_num + 1
+
     # Create an anchor for this page.
-    readme_content += f'<a name="page{page_num + 1}"></a>\n'
+    readme_content += f'<a name="page{current_page}"></a>\n'
 
-    # Heading: "## Page X" 
-    # Then, on the same line, list the other page links (e.g. [2] [3] [4] for Page 1).
-    readme_content += f"## Page {page_num + 1}"
-
+    # Build the page heading line:
+    # e.g. "## Page 1 • [2](#page2) • [3](#page3) • [4](#page4)"
+    page_links = []
     for i in range(1, total_pages + 1):
-        if i != (page_num + 1):
-            # Link to other pages
-            readme_content += f" [{i}](#page{i})"
+        if i == current_page:
+            # Current page is plain text (no link).
+            page_links.append(f"{i}")
+        else:
+            # Other pages are links.
+            page_links.append(f"[{i}](#page{i})")
 
-    readme_content += "\n\n"
+    # Join them with " • "
+    heading_line = " • ".join(page_links)
+    readme_content += f"## Page {heading_line}\n\n"
 
-    # Repositories for this page.
+    # Determine which repos belong to this page.
     start_index = page_num * repos_per_page
     end_index = start_index + repos_per_page
     page_repos = sorted_repos[start_index:end_index]
@@ -104,12 +110,11 @@ for page_num in range(total_pages):
         language = repo['language']
         language_color = language_colors.get(language, "")
 
-        # Check if it's a fork and handle parent info.
+        # Handle fork info.
         if repo['fork']:
             if 'parent' not in repo:
                 repo_details_url = repo['url']
                 repo_details_response = requests.get(repo_details_url, auth=(username, token))
-                
                 if repo_details_response.status_code == 200:
                     repo_details = repo_details_response.json()
                     if 'parent' in repo_details:
@@ -121,34 +126,33 @@ for page_num in range(total_pages):
                     print(f"Failed to fetch parent details: {repo_details_response.status_code}")
                     fork_info = "🍴 Forked from unknown"
             else:
-                # If 'parent' is already in the repo info:
                 parent = repo['parent']['full_name']
                 fork_info = f"🍴 Forked from [{parent}](https://github.com/{parent})"
         else:
             fork_info = ""
 
-        # Print repository details.
         readme_content += f"### [{repo['name']}]({repo['html_url']})\n"
         readme_content += f"{language_color} {language} • Created on {formatted_date}  \n{fork_info}\n\n"
 
-        # Separator between repos (except for the last one on the page).
+        # Add a separator if it's not the last repo on this page.
         if index < len(page_repos) - 1:
             readme_content += "---\n\n"
 
+# 7. Final anchors and closing sections.
 readme_content += "\n<a name='contributions'></a>\n"
 readme_content += """
 ### [Back to Top](#top)
 """
 
-# 7. Write the README file.
+# 8. Write the README file.
 with open("README.md", "w") as readme_file:
     readme_file.write(readme_content)
 
-print("README.md updated with static content and paginated repositories (with single-line headings).")
+print("README.md updated with custom heading pagination and repository listings.")
 
-# 8. Commit/push changes.
+# 9. Git commit & push.
 subprocess.run(["git", "add", "README.md"], check=True)
-subprocess.run(["git", "commit", "-m", "updated sorted repos with custom heading pagination"], check=True)
+subprocess.run(["git", "commit", "-m", "Update README with new pagination format"], check=True)
 subprocess.run(["git", "push"], check=True)
 
 print("Changes committed and pushed to GitHub.")
