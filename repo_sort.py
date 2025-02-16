@@ -30,7 +30,8 @@ language_colors = {
 # 1. Fetch all repositories, handling pagination.
 while True:
     response = requests.get(
-        f"{url}?page={page}&per_page={per_page}", auth=(username, token)
+        f"{url}?page={page}&per_page={per_page}", 
+        auth=(username, token)
     )
 
     if response.status_code == 200:
@@ -76,25 +77,21 @@ total_pages = (len(sorted_repos) + repos_per_page - 1) // repos_per_page
 
 # 5. Build output for each page of repos.
 for page_num in range(total_pages):
-    # Create an anchor for the page.
-    readme_content += f'<a name="page{page_num + 1}"></a>\n'
-    # Show the page heading.
-    readme_content += f"## Page {page_num + 1}\n\n"
+    # Create an anchor for this page.
+    readme_content += f'\n<a name="page{page_num + 1}"></a>\n'
 
-    # Build a small "pagination bar." 
-    # - Current page is in bold.
-    # - Other pages link to their anchors.
+    # Build the pagination line on a single line in the same font.
+    # - Current page in bold
+    # - Other pages as links
     pagination_links = []
     for i in range(1, total_pages + 1):
         if i == (page_num + 1):
-            # Highlight current page
-            pagination_links.append(f"**{i}**")
+            pagination_links.append(f"**{i}**")  # current page in bold
         else:
-            # Make other pages clickable
-            pagination_links.append(f"[{i}](#page{i})")
+            pagination_links.append(f"[{i}](#page{i})")  # link to other pages
 
-    # Join and add the pagination line
-    readme_content += " ".join(pagination_links) + "\n\n"
+    # Example output: Page 1 **1** [2](#page2) [3](#page3) [4](#page4)
+    readme_content += f"**Page {page_num + 1}** " + " ".join(pagination_links) + "\n\n"
 
     # Gather the repos for this page:
     start_index = page_num * repos_per_page
@@ -139,11 +136,8 @@ for page_num in range(total_pages):
         if index < len(page_repos) - 1:
             readme_content += "---\n\n"
 
-    # (Optional) add a line break before the next page starts 
-    readme_content += "\n"
-
-# 7. Add contribution anchor and back-to-top link.
-readme_content += "<a name='contributions'></a>\n"
+# 7. Add the "Contributions" anchor and back-to-top link.
+readme_content += "\n<a name='contributions'></a>\n"
 readme_content += """
 ### [Back to Top](#top)
 """
@@ -152,11 +146,11 @@ readme_content += """
 with open("README.md", "w") as readme_file:
     readme_file.write(readme_content)
 
-print("README.md updated with static content, paginated repositories, and page navigation.")
+print("README.md updated with static content, paginated repositories, and single-line pagination links.")
 
 # 9. Commit/push changes.
 subprocess.run(["git", "add", "README.md"], check=True)
-subprocess.run(["git", "commit", "-m", "updated sorted repos with pagination"], check=True)
+subprocess.run(["git", "commit", "-m", "updated sorted repos with single-line pagination"], check=True)
 subprocess.run(["git", "push"], check=True)
 
 print("Changes committed and pushed to GitHub.")
