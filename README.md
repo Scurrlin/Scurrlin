@@ -21,6 +21,12 @@ I have a demonstrated proficiency in software development, with a proven track r
 <a name="page1"></a>
 ## Page 1 • [2](#page2)
 
+### [react_movies_app](https://github.com/Scurrlin/react_movies_app)
+ None • Created on 02-18-2025  
+🍴 Forked from [sudo-branch-manager/react_movies_app](https://github.com/sudo-branch-manager/react_movies_app)
+
+---
+
 ### [stencil](https://github.com/Scurrlin/stencil)
 🟡 JavaScript • Created on 12-31-2024  
 
@@ -132,12 +138,6 @@ I have a demonstrated proficiency in software development, with a proven track r
 ### [LC_Pareto_Set](https://github.com/Scurrlin/LC_Pareto_Set)
 🔵 Python • Created on 07-21-2024  
 
-
----
-
-### [leetcode](https://github.com/Scurrlin/leetcode)
-🟡 JavaScript • Created on 07-19-2024  
-🍴 Forked from [neetcode-gh/leetcode](https://github.com/neetcode-gh/leetcode)
 
 ---
 
