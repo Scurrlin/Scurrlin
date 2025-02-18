@@ -6,7 +6,7 @@
 <table>
 <tr>
 <td>
-I have a demonstrated proficiency in software development, with a proven track record of delivering high-quality solutions from ideation to deployment. My expertise includes developing and optimizing web applications, enhancing data pipelines, and implementing analytics to generate actionable insights. I possess a deep understanding of full-stack development, particularly in Python, JavaScript, React.js, and database management. My polished communication skills enable me to effectively articulate complex technical strategies.
+I have a demonstrated proficiency in software development, with a proven track record of delivering high-quality solutions from ideation to deployment...
 </td>
 </tr>
 </table>
@@ -21,14 +21,8 @@ I have a demonstrated proficiency in software development, with a proven track r
 <a name="page1"></a>
 ## Page 1 • [2](#page2)
 
-### [dummy_repo](https://github.com/Scurrlin/dummy_repo)
- None • Created on 02-18-2025  
-
-
----
-
 ### [react_movies_app](https://github.com/Scurrlin/react_movies_app)
- None • Created on 02-18-2025  
+🟡 JavaScript • Created on 02-18-2025  
 🍴 Forked from [sudo-branch-manager/react_movies_app](https://github.com/sudo-branch-manager/react_movies_app)
 
 ---
@@ -199,14 +193,14 @@ I have a demonstrated proficiency in software development, with a proven track r
 🟡 JavaScript • Created on 01-17-2024  
 
 
-<a name="page2"></a>
-## Page [1](#page1) • 2
+---
 
 ### [3D-Portfolio](https://github.com/Scurrlin/3D-Portfolio)
 🟡 JavaScript • Created on 01-15-2024  
 
 
----
+<a name="page2"></a>
+## Page [1](#page1) • 2
 
 ### [Artofficial](https://github.com/Scurrlin/Artofficial)
 🟡 JavaScript • Created on 01-14-2024  
