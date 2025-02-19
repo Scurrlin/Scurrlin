@@ -140,10 +140,11 @@ for page_num in range(total_pages):
         else:
             fork_info = ""
 
-        readme_content += f"### [{repo['name']}]({repo['html_url']})\n"
-        if fork_info:
-            readme_content += f"{fork_info}\n"
-        readme_content += f"{language_color} {language if language else 'None'} • Created on {formatted_date}\n\n"
+        readme_content += (
+            f"### [{repo['name']}]({repo['html_url']})\n"
+            f"{(fork_info + '\n') if fork_info else ''}"
+            f"{language_color} {language if language else 'None'} • Created on {formatted_date}\n\n"
+        )
 
         if index < len(page_repos) - 1:
             readme_content += "---\n\n"
@@ -160,7 +161,7 @@ with open("README.md", "w") as readme_file:
 
 # Git commit & push
 subprocess.run(["git", "add", "README.md"], check=True)
-subprocess.run(["git", "commit", "-m", "Update README with new pagination format"], check=True)
+subprocess.run(["git", "commit", "-m", "update sorted repos"], check=True)
 subprocess.run(["git", "push"], check=True)
 
 print("Changes committed and pushed to GitHub.")
