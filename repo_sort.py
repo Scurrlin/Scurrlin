@@ -140,11 +140,8 @@ for page_num in range(total_pages):
         else:
             fork_info = ""
 
-        readme_content += (
-            f"### [{repo['name']}]({repo['html_url']})\n"
-            f"{(fork_info + '\n') if fork_info else ''}"
-            f"{language_color} {language if language else 'None'} • Created on {formatted_date}\n\n"
-        )
+        readme_content += f"### [{repo['name']}]({repo['html_url']})\n" + (fork_info + "\n" if fork_info else "")
+        readme_content += f"{language_color} {language if language else 'None'} • Created on {formatted_date}\n\n"
 
         if index < len(page_repos) - 1:
             readme_content += "---\n\n"
