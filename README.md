@@ -21,6 +21,12 @@ I have a demonstrated proficiency in software development, with a proven track r
 <a name="page1"></a>
 ## Page 1 • [2](#page2)
 
+### [portfolio-3.0](https://github.com/Scurrlin/portfolio-3.0)
+  
+🟡 JavaScript • Created on 04-12-2025
+
+---
+
 ### [docker_101](https://github.com/Scurrlin/docker_101)
 🍴 Forked from [sudo-branch-manager/docker_101](https://github.com/sudo-branch-manager/docker_101)  
 🔵 TypeScript • Created on 03-22-2025
@@ -193,14 +199,14 @@ I have a demonstrated proficiency in software development, with a proven track r
   
 🔵 TypeScript • Created on 03-20-2024
 
----
+<a name="page2"></a>
+## Page [1](#page1) • 2
 
 ### [House_Party](https://github.com/Scurrlin/House_Party)
   
 🔵 Python • Created on 03-04-2024
 
-<a name="page2"></a>
-## Page [1](#page1) • 2
+---
 
 ### [Lift-Off](https://github.com/Scurrlin/Lift-Off)
   
