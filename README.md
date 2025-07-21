@@ -21,6 +21,12 @@ I have a demonstrated proficiency in software development, with a proven track r
 <a name="page1"></a>
 ## Page 1 • [2](#page2)
 
+### [gsap_cocktails](https://github.com/Scurrlin/gsap_cocktails)
+  
+🟡 JavaScript • Created on 07-20-2025
+
+---
+
 ### [portfolio-3.0](https://github.com/Scurrlin/portfolio-3.0)
   
 🟡 JavaScript • Created on 04-12-2025
@@ -193,14 +199,14 @@ I have a demonstrated proficiency in software development, with a proven track r
   
 🔵 Python • Created on 03-04-2024
 
----
+<a name="page2"></a>
+## Page [1](#page1) • 2
 
 ### [Lift-Off](https://github.com/Scurrlin/Lift-Off)
   
 🟡 JavaScript • Created on 01-17-2024
 
-<a name="page2"></a>
-## Page [1](#page1) • 2
+---
 
 ### [Artofficial](https://github.com/Scurrlin/Artofficial)
   
