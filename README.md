@@ -3,13 +3,7 @@
 
 # Hi, I'm Sean 👋
 
-<table>
-<tr>
-<td>
 I have a demonstrated proficiency in software development, with a proven track record of delivering high-quality solutions from ideation to deployment. My expertise includes developing and optimizing web applications, enhancing data pipelines, and implementing analytics to generate actionable insights. I possess a deep understanding of full-stack development, particularly in Python, JavaScript, React.js, and database management. My polished communication skills enable me to effectively articulate complex technical strategies.
-</td>
-</tr>
-</table>
 
 ### Skills/Tools:
 
@@ -21,9 +15,15 @@ I have a demonstrated proficiency in software development, with a proven track r
 <a name="page1"></a>
 ## Page 1 • [2](#page2)
 
+### [boot.dev_ai_agent](https://github.com/Scurrlin/boot.dev_ai_agent)
+  
+🔵 Python • Created on 08-13-2025
+
+---
+
 ### [ai_resume_analyzer](https://github.com/Scurrlin/ai_resume_analyzer)
   
-🟡 JavaScript • Created on 08-01-2025
+🔵 TypeScript • Created on 08-01-2025
 
 ---
 
@@ -193,14 +193,14 @@ I have a demonstrated proficiency in software development, with a proven track r
   
 🔵 TypeScript • Created on 03-20-2024
 
----
+<a name="page2"></a>
+## Page [1](#page1) • 2
 
 ### [House_Party](https://github.com/Scurrlin/House_Party)
   
 🔵 Python • Created on 03-04-2024
 
-<a name="page2"></a>
-## Page [1](#page1) • 2
+---
 
 ### [Lift-Off](https://github.com/Scurrlin/Lift-Off)
   
