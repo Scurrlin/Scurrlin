@@ -61,6 +61,8 @@ I have a demonstrated proficiency in software development, with a proven track r
 
 ![My Skills](https://skillicons.dev/icons?i=js,react,express,mongodb,nodejs,nextjs,threejs,tailwind,python,django,flask,postgres,postman,vercel,git)
 
+---
+
 ### [Skip to Contributions](#contributions)
 
 ### Repositories sorted by date created:
