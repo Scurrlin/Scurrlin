@@ -73,12 +73,6 @@ I have a demonstrated proficiency in software development, with a proven track r
 
 ---
 
-### [Zentry-Replica](https://github.com/Scurrlin/Zentry-Replica)
-  
-🟡 JavaScript • Created on 11-22-2024
-
----
-
 ### [LiveDocs](https://github.com/Scurrlin/LiveDocs)
   
 🔵 TypeScript • Created on 11-09-2024
@@ -197,14 +191,14 @@ I have a demonstrated proficiency in software development, with a proven track r
   
 🔵 TypeScript • Created on 03-20-2024
 
-<a name="page2"></a>
-## Page [1](#page1) • 2
+---
 
 ### [House_Party](https://github.com/Scurrlin/House_Party)
   
 🔵 Python • Created on 03-04-2024
 
----
+<a name="page2"></a>
+## Page [1](#page1) • 2
 
 ### [Lift-Off](https://github.com/Scurrlin/Lift-Off)
   
