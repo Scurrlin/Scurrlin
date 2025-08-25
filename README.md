@@ -218,12 +218,6 @@ I have a demonstrated proficiency in software development, with a proven track r
 
 ---
 
-### [Python_DSA](https://github.com/Scurrlin/Python_DSA)
-  
-🔵 Python • Created on 11-27-2023
-
----
-
 ### [AI_Article_Summarizer_Clone](https://github.com/Scurrlin/AI_Article_Summarizer_Clone)
   
 🟡 JavaScript • Created on 09-10-2023
