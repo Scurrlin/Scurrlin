@@ -16,12 +16,13 @@ page = 1
 per_page = 30
 
 language_colors = {
+    "Jupyter Notebook": "🟠",
     "HTML": "🟠",
     "CSS": "🟣",
+    "PHP": "🟣",
     "JavaScript": "🟡",
     "TypeScript": "🔵",
     "Python": "🔵",
-    "PHP": "🟣",
     "C++": "🔴",
     "C#": "🟢",
     "C": "⚪️"
