@@ -19,6 +19,12 @@ I have a demonstrated proficiency in software development, with a proven track r
 <a name="page1"></a>
 ## Page 1 • [2](#page2)
 
+### [cost_of_virtuosity](https://github.com/Scurrlin/cost_of_virtuosity)
+  
+🟠 HTML • Created on 09-10-2025
+
+---
+
 ### [boot.dev_ai_agent](https://github.com/Scurrlin/boot.dev_ai_agent)
   
 🔵 Python • Created on 08-13-2025
@@ -191,14 +197,14 @@ I have a demonstrated proficiency in software development, with a proven track r
   
 🔵 TypeScript • Created on 03-20-2024
 
----
+<a name="page2"></a>
+## Page [1](#page1) • 2
 
 ### [House_Party](https://github.com/Scurrlin/House_Party)
   
 🔵 Python • Created on 03-04-2024
 
-<a name="page2"></a>
-## Page [1](#page1) • 2
+---
 
 ### [Lift-Off](https://github.com/Scurrlin/Lift-Off)
   
