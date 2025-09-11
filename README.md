@@ -31,12 +31,6 @@ I have a demonstrated proficiency in software development, with a proven track r
 
 ---
 
-### [ai_resume_analyzer](https://github.com/Scurrlin/ai_resume_analyzer)
-  
-🔵 TypeScript • Created on 08-01-2025
-
----
-
 ### [portfolio-3.0](https://github.com/Scurrlin/portfolio-3.0)
   
 🟡 JavaScript • Created on 04-12-2025
@@ -197,14 +191,14 @@ I have a demonstrated proficiency in software development, with a proven track r
   
 🔵 TypeScript • Created on 03-20-2024
 
-<a name="page2"></a>
-## Page [1](#page1) • 2
+---
 
 ### [House_Party](https://github.com/Scurrlin/House_Party)
   
 🔵 Python • Created on 03-04-2024
 
----
+<a name="page2"></a>
+## Page [1](#page1) • 2
 
 ### [Lift-Off](https://github.com/Scurrlin/Lift-Off)
   
