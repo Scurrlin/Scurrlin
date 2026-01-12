@@ -19,6 +19,12 @@ I have a demonstrated proficiency in software development, with a proven track r
 <a name="page1"></a>
 ## Page 1 • [2](#page2)
 
+### [dot_product](https://github.com/Scurrlin/dot_product)
+  
+🟠 HTML • Created on 01-10-2026
+
+---
+
 ### [LC_Core_25](https://github.com/Scurrlin/LC_Core_25)
   
 🔵 Python • Created on 10-24-2025
@@ -191,14 +197,14 @@ I have a demonstrated proficiency in software development, with a proven track r
   
 🟡 JavaScript • Created on 05-07-2024
 
----
+<a name="page2"></a>
+## Page [1](#page1) • 2
 
 ### [House_Party](https://github.com/Scurrlin/House_Party)
   
 🔵 Python • Created on 03-04-2024
 
-<a name="page2"></a>
-## Page [1](#page1) • 2
+---
 
 ### [Lift-Off](https://github.com/Scurrlin/Lift-Off)
   
