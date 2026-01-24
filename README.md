@@ -19,6 +19,18 @@ I have a demonstrated proficiency in software development, with a proven track r
 <a name="page1"></a>
 ## Page 1 • [2](#page2)
 
+### [Parsity_Week_2](https://github.com/Scurrlin/Parsity_Week_2)
+  
+🔵 TypeScript • Created on 01-24-2026
+
+---
+
+### [Parsity_Week_1](https://github.com/Scurrlin/Parsity_Week_1)
+  
+🔵 TypeScript • Created on 01-17-2026
+
+---
+
 ### [dot_product](https://github.com/Scurrlin/dot_product)
   
 🟠 HTML • Created on 01-10-2026
@@ -185,7 +197,8 @@ I have a demonstrated proficiency in software development, with a proven track r
   
 🔵 Python • Created on 06-03-2024
 
----
+<a name="page2"></a>
+## Page [1](#page1) • 2
 
 ### [yoom](https://github.com/Scurrlin/yoom)
   
@@ -197,8 +210,7 @@ I have a demonstrated proficiency in software development, with a proven track r
   
 🟡 JavaScript • Created on 05-07-2024
 
-<a name="page2"></a>
-## Page [1](#page1) • 2
+---
 
 ### [House_Party](https://github.com/Scurrlin/House_Party)
   
