@@ -43,7 +43,7 @@ I have a demonstrated proficiency in software development, with a proven track r
 
 ---
 
-### [dot_product](https://github.com/Scurrlin/dot_product)
+### [dot_products](https://github.com/Scurrlin/dot_products)
   
 🟠 HTML • Created on 01-10-2026
 
