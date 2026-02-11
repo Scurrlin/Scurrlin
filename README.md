@@ -19,6 +19,12 @@ I have a demonstrated proficiency in software development, with a proven track r
 <a name="page1"></a>
 ## Page 1 • [2](#page2)
 
+### [AI_Compendium](https://github.com/Scurrlin/AI_Compendium)
+  
+🟠 HTML • Created on 02-09-2026
+
+---
+
 ### [imagineRAG](https://github.com/Scurrlin/imagineRAG)
   
 🔵 TypeScript • Created on 02-02-2026
@@ -40,12 +46,6 @@ I have a demonstrated proficiency in software development, with a proven track r
 ### [Parsity_Week_1](https://github.com/Scurrlin/Parsity_Week_1)
   
 🔵 TypeScript • Created on 01-17-2026
-
----
-
-### [dot-products](https://github.com/Scurrlin/dot-products)
-  
-🟠 HTML • Created on 01-10-2026
 
 ---
 
