@@ -4,4 +4,4 @@ I'm a software engineer specializing in Python, TypeScript, React, and SQL/NoSQL
 
 ---
 
-![My Skills](https://skillicons.dev/icons?i=python,typescript,js,react,express,nextjs,nodejs,django,flask,postgres,mongodb,tailwind,docker,vercel,git)
+![My Skills](https://skillicons.dev/icons?i=python,typescript,js,react,tailwind,nextjs,express,nodejs,django,flask,postgres,mongodb,docker,vercel,git)
