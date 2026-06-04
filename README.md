@@ -1,6 +1,6 @@
 # Hi, I'm Sean 👋
 
-I'm a software engineer specializing in Python, TypeScript, React, and SQL/NoSQL databases. I enjoy building data pipelines, web apps, thoughtful frontend experiences, and RAG systems.
+I'm a software engineer specializing in Python, TypeScript, React, LLM Integration, and SQL/NoSQL databases. I enjoy building data pipelines, web apps, thoughtful frontend experiences, and RAG systems.
 
 ---
 
