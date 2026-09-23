@@ -2,7 +2,7 @@
 
 I'm a Product Analyst & Engineer specializing in Python, TypeScript, React, LLM Integration, and SQL/NoSQL databases. I enjoy building data pipelines, web apps, thoughtful frontend experiences, and RAG systems.
 
-Click here to check out [my portfolio ↗](https://seancurrlin.com/)
+Click [here](https://seancurrlin.com/) to check out my portfolio ↗
 
 ---
 
