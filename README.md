@@ -4,7 +4,7 @@ I'm a Product Analyst & Engineer specializing in Python, TypeScript, LLM Integra
 
 Click [here](https://seancurrlin.com/) to check out my portfolio ↗
 
-https://github.com/user-attachments/assets/ca47e325-c95f-4a56-b4c3-ec9fc4420503
+https://github.com/user-attachments/assets/6b8d8901-a992-44b4-ae91-867fa674d500
 
 ---
 
