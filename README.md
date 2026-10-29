@@ -6,6 +6,4 @@ Click [here](https://seancurrlin.com/) to check out my portfolio ↗
 
 https://github.com/user-attachments/assets/6b8d8901-a992-44b4-ae91-867fa674d500
 
----
-
 ![My Skills](https://skillicons.dev/icons?i=python,typescript,js,react,tailwind,nextjs,express,nodejs,django,flask,postgres,mongodb,docker,vercel,git)
